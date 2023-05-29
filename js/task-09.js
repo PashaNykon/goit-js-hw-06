@@ -11,7 +11,11 @@ const backgroundColor = document.querySelector('body');
 btnChangeBgColor.addEventListener('click', changeColor)
 
 function changeColor() {
+
+
   const bgColor = getRandomHexColor();
   spanEl.textContent = bgColor;
   backgroundColor.style.backgroundColor = bgColor;
+
+  
 }

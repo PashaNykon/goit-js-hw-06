@@ -17,7 +17,7 @@ function onFormSubmit(event) {
         mail,
         password,
     }
-    
+    console.log(formData);
     formEl.reset();
        
 }
